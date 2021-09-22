@@ -1,0 +1,18 @@
+
+User-agent: *
+Disallow:/login
+Disallow:/register
+Disallow:/about
+Disallow:/404
+Disallow:/blog/:uid
+Disallow:/orders
+
+Allow:/
+Allow:/blog
+Allow:/checkout
+
+Sitemap: http://localhost:3000/sitemap.xml
+Sitemap: http://www.turboassignment.com/sitemap.xml
+Sitemap: https://www.turboassignment.com/sitemap.xml
+Sitemap: http://turboassignment.com/sitemap.xml
+Sitemap: https://turboassignment.com/sitemap.xml

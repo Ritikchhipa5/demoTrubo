@@ -1,0 +1,12 @@
+.nav-dropdownitem-arrow {
+  color: white;
+}
+
+.nav-services:hover .nav-dropdown-conatiner {
+  display: flex;
+  overflow: visible;
+}
+
+.visible {
+  display: flex;
+}

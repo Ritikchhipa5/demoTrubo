@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+:root {
+  --req-primary-color: #7047ea;
+  --req-title-color: #0d0c22;
+  --req-subtitle-color: #3d3d4e;
+  --req-white-color: white;
+  --req-grey-bg: #f7f7f9;
+  --req-darkgrey-bg: #f1f0f6;
+  -req-lightgreen-color: #2eca73;
+  --req-font-family: "Lato", sans-serif;
+  --req-section-head: 27.5px;
+  --req-section-subhead: 14px;
+  --req-article-head: 14px;
+  --req-article-subtext: 1rem;
+  --req-article-text: 10px;
+  --req-article-tags: 10px;
+  --req-w-article-head: 600;
+  --req-w-article-text: 400;
+  --req-lineheight: 1.5;
+  -req-font-size-12: 12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* position: relative; */
+  /* display: block; */
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--req-title-color);
+  /* background-color: white; */
+  /* box-sizing: border-box; */
+  font-family: var(--req-font-family);
+  /* height: 100vh; */
+  /* width: 100vw;  */
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    max-height: 1000px;
+    background-color: #2eca73;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    /* height: 100vh; */
+    background-color: #7047ea;
+  }
+}
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  /* color: var(--req-subtitle-color); */
+}
+input {
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.App {
+  height: fit-content;
+}
+#root {
+  width: -webkit-fill-available;
+}
